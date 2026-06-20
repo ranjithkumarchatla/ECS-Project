@@ -1,613 +1,622 @@
-*{
-    margin: 0;
-    font-family: sans-serif;
-    border: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  font-family: sans-serif;
+  border: border-box;
+  text-decoration: none;
 }
 
-.nav-bar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 70px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgb(1, 1, 32);
-    color: rgb(220, 222, 224);
-    position: fixed;
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(1, 1, 32);
+  color: rgb(220, 222, 224);
+  position: fixed;
 }
 
-.logo{
-    display: flex;
-    width: 180px;
-    justify-content: space-between;
+.logo {
+  display: flex;
+  width: 180px;
+  justify-content: space-between;
+  padding-left: 50px;
 }
 
-#logo-img{
-    background-image: url('T-logo.jpeg');
-    background-size: cover;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+#logo-img {
+  background-image: url("T-logo.jpeg");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
-.nav-links a{
-    font-weight: bold;
-    color: white;
-    padding: 20px;
+.nav-links {
+  padding-right: 50px;
 }
-.nav-links a:hover{
-    color: rgb(225, 180, 0);
+.nav-links a {
+  font-weight: bold;
+  color: white;
+  padding: 20px;
 }
-
-#nav-btn button{
-    border-radius: 15px;
-    height: 40px;
-    width: 130px;
-    background-color: green;
-    color: rgb(220, 222, 224);
+.nav-links a:hover {
+  color: rgb(225, 180, 0);
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.hero{
-    background-image: url("Hero.png");
-    height: 520px;
-    margin-top: 70px;
-    background-size: cover;
+.hero {
+  background-image: url("Hero.png");
+  height: 520px;
+  margin-top: 70px;
+  background-size: cover;
 }
-.Hero-txt{
-    height: 300px;
-    width: 500px;
-    padding: 20px 0px 0px 150px;  
+.Hero-txt {
+  height: 300px;
+  width: 500px;
+  padding: 20px 0px 0px 100px;
 }
-#WT{
-    color: rgb(215, 215, 39);
-    font-family:Brush Script MT, Brush Script Std, cursive;
-    font-size: 90px;
+#WT {
+  color: rgb(215, 215, 39);
+  font-family:
+    Brush Script MT,
+    Brush Script Std,
+    cursive;
+  font-size: 90px;
 }
-.Hero-txt h1{
-    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
-    font-size: 70px;
-    padding-bottom: 10px;
+.Hero-txt h1 {
+  font-family:
+    New Century Schoolbook,
+    TeX Gyre Schola,
+    serif;
+  font-size: 70px;
+  padding-bottom: 10px;
 }
-.Hero-txt h2{
-    font-size: 20px;
-    padding-bottom: 5px;
+.Hero-txt h2 {
+  font-size: 20px;
+  padding-bottom: 5px;
 }
-.Hero-txt p{
-    color: rgb(172, 172, 172);
+.Hero-txt p {
+  color: rgb(172, 172, 172);
 }
-.white-txt{
-    color: aliceblue;
-}
-
-.Three-boxes{
-    display: flex;
-    width: 95%;
-    justify-content: center;
-    margin: 20px 0px 20px 0px;
-    gap: 50px;
+.white-txt {
+  color: aliceblue;
 }
 
-.Box{
-    height: 300px;
-    width: 420px;
-    border-radius: 10px;
+.Three-boxes {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+  gap: 50px;
 }
 
-.Tb-1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.Box {
+  height: 300px;
+  width: 420px;
+  border-radius: 10px;
 }
 
-.Tb1-H{
-    display: flex;
-}
-#T-h{
-    padding-top: 11px;
-}
-#DT{
-    margin-right: 10px;
-    font-family:Brush Script MT, Brush Script Std, cursive;
-    font-weight: 500;
-    font-size: 45px;
-    color: green;
+.Tb-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-#DT-p{
-    color: rgb(105, 105, 105);
-    font-size: 14px;
+.Tb1-H {
+  display: flex;
+}
+#T-h {
+  padding-top: 11px;
+}
+#DT {
+  margin-right: 10px;
+  font-family:
+    Brush Script MT,
+    Brush Script Std,
+    cursive;
+  font-weight: 500;
+  font-size: 45px;
+  color: green;
 }
 
-.TF{
-    font-size: 15px;
+#DT-p {
+  color: rgb(105, 105, 105);
+  font-size: 14px;
 }
 
-.Tb-2{
-    background-image: url("Tb2-img(2).png");
-    width: 345px;
-    background-size: contain;
-    background-position: center;
+.TF {
+  font-size: 15px;
 }
 
-.Tb-3{
-    background-color: rgb(220, 237, 220);
-}
-.Tb-3 li::marker{
-    color: green;
-}
-.Tb-3 h3{
-    padding:15px 0px 10px 25px;
-    color: green;
+.Tb-2 {
+  background-image: url("Tb2-img(2).png");
+  width: 345px;
+  background-size: contain;
+  background-position: center;
 }
 
-
-.TaG{
-    display: flex;
-    justify-content: center;
-    border: 2px solid gainsboro;
-    margin: 20px 0px 20px 0px;
-    border-radius: 10px;
-    overflow: hidden;
+.Tb-3 {
+  background-color: rgb(220, 237, 220);
+}
+.Tb-3 li::marker {
+  color: green;
+}
+.Tb-3 h3 {
+  padding: 15px 0px 10px 25px;
+  color: green;
 }
 
-.Center-H{
-    text-align: center;
-    margin: 20px 0px 20px 0px ;
-    border-bottom: 3px solid orange;
+.TaG {
+  display: flex;
+  justify-content: center;
+  border: 2px solid gainsboro;
+  margin: 20px 0px 20px 0px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.TG-box{
-    height: 145px;
-    width: 145px;
-    border-right: 2px solid gainsboro;
-    background-color: rgb(255, 253, 245);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.TG-box h3{
-    font-size: 15px;
-    font-weight: 600;
+.Center-H {
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+  border-bottom: 3px solid orange;
 }
 
-.TG-icon{
-    height: 50px;
-    width: 50px;
-    background-size: cover;
-    background-position: center;
+.TG-box {
+  height: 145px;
+  width: 145px;
+  border-right: 2px solid gainsboro;
+  background-color: rgb(255, 253, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.TG-box h3 {
+  font-size: 15px;
+  font-weight: 600;
 }
 
-#area{
-    background-image: url("area.png");
-}
-#capital{
-    background-image: url("capital.png");
-}
-#city{
-    background-image: url("largest-city.png");
-}
-#tree{
-    background-image: url("tree.png");
-}
-#flower{
-    background-image: url("flower.png");
-}
-#animal{
-    background-image: url("animal.png");
-}
-#bird{
-    background-image: url("bird.png");
-}
-#population{
-    background-image: url("population.png");
-}
-#language{
-    background-image: url("language.png");
+.TG-icon {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-position: center;
 }
 
-.T-wonders{
-    display: flex;
-    justify-content:center;
-    gap: 20px;
+#area {
+  background-image: url("area.png");
+}
+#capital {
+  background-image: url("capital.png");
+}
+#city {
+  background-image: url("largest-city.png");
+}
+#tree {
+  background-image: url("tree.png");
+}
+#flower {
+  background-image: url("flower.png");
+}
+#animal {
+  background-image: url("animal.png");
+}
+#bird {
+  background-image: url("bird.png");
+}
+#population {
+  background-image: url("population.png");
+}
+#language {
+  background-image: url("language.png");
 }
 
-.w-box{
-    height: 300px;
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    border: 1px solid rgb(221, 219, 219);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0.703) 2px 2px 2px 2px;
+.T-wonders {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.w-img{
-    height: 200px;
-    width: 200px;
-    background-size: cover;
-    background-position: center;
+.w-box {
+  height: 300px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid rgb(221, 219, 219);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.703) 2px 2px 2px 2px;
 }
 
-.w-info{
-    padding-bottom: 5px;
-    color: rgb(105, 105, 105);
+.w-img {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
 }
 
-#charminar-img{
-    background-image: url("charminar.jpg");
+.w-info {
+  padding-bottom: 5px;
+  color: rgb(105, 105, 105);
 }
 
-#fort-img{
-    background-image: url("golconda.jpg");
+#charminar-img {
+  background-image: url("charminar.jpg");
 }
 
-#RFC-img{
-    background-image: url("RFC.webp");
+#fort-img {
+  background-image: url("golconda.jpg");
 }
 
-#Temple-img{
-    background-image: url("ramappa.jpg");
+#RFC-img {
+  background-image: url("RFC.webp");
 }
 
-#HSL-img{
-    background-image: url("HSL.jpg");
+#Temple-img {
+  background-image: url("ramappa.jpg");
 }
 
-#SJ-img{
-    background-image: url("SJM.jpeg");
+#HSL-img {
+  background-image: url("HSL.jpg");
 }
 
-.Cultural-heritage{
-    display: flex;
-    margin: 20px 0px 20px 0px;
-    gap: 50px;
+#SJ-img {
+  background-image: url("SJM.jpeg");
 }
 
-.CH-box{
-    height: 215px;
-    width: 430px;
-    background-color: rgb(255, 244, 255);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.ch{
-    padding-left: 10px;
-}
-.CH-box ul{
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.Cultural-heritage {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+  gap: 50px;
 }
 
-.CH-box li::marker{
-    color: rgb(177, 8, 177);
-    font-size: 30px;
+.CH-box {
+  height: 215px;
+  width: 430px;
+  background-color: rgb(255, 244, 255);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ch {
+  padding-left: 10px;
+}
+.CH-box ul {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-#Cul-H{
-    color: rgb(177, 8, 177);
-    font-family:Brush Script MT, Brush Script Std, cursive;
-    font-size: 35px;
+.CH-box li::marker {
+  color: rgb(177, 8, 177);
+  font-size: 30px;
 }
 
-.CH-imgs{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-
-}
-.CH-img{
-    height: 180px; 
-    width: 230px;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: center;
-}
-#CH-img1{
-    background-image: url("sarees.jpg");
-
-}
-#CH-img2{
-    background-image: url("perini.jpg");
+#Cul-H {
+  color: rgb(177, 8, 177);
+  font-family:
+    Brush Script MT,
+    Brush Script Std,
+    cursive;
+  font-size: 35px;
 }
 
-#CH-img3{
-    background-image: url("crafts.jpg");
+.CH-imgs {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.CH-img {
+  height: 180px;
+  width: 230px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+#CH-img1 {
+  background-image: url("sarees.jpg");
+}
+#CH-img2 {
+  background-image: url("perini.jpg");
 }
 
-.T-celebrations{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 90%;
-    padding: 20px;
+#CH-img3 {
+  background-image: url("crafts.jpg");
+}
+
+.T-celebrations {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+  padding: 20px;
 }
 /* .side-h{
     display: inline-block;
     border-bottom: 3px solid brown;
 } */
-.CoT{
-    display: flex;
-    justify-content: space-between;
+.CoT {
+  display: flex;
+  justify-content: space-between;
 }
-.C-box{
-    height: 150px;
-    width: 415px;
-    border: 1px solid rgb(212, 209, 193);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 10px;
-    overflow: hidden;
-    font-weight: bold;
-    background-color: rgb(249, 240, 216);
-}
-
-.C-box p{
-    font-size: 14px;
-}
-.C-box h3{
-    font-size: 19px;
+.C-box {
+  height: 150px;
+  width: 415px;
+  border: 1px solid rgb(212, 209, 193);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  font-weight: bold;
+  background-color: rgb(249, 240, 216);
 }
 
-.txt h3{
-    font-size: 18px;
-    padding-bottom: 15px;
+.C-box p {
+  font-size: 14px;
 }
-.txt p{
-    padding-bottom: 30px;
-}
-
-.C-img{
-    height: 130px;
-    width: 150px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 5px;
+.C-box h3 {
+  font-size: 19px;
 }
 
-#bathukamma-img{
-    background-image: url("bathukamma.jpg");
+.txt h3 {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.txt p {
+  padding-bottom: 30px;
 }
 
-#bonalu-img{
-    background-image: url("bonalu.jpg");
+.C-img {
+  height: 130px;
+  width: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
 }
 
-#jatara-img{
-    background-image: url("jatara.jpg");
+#bathukamma-img {
+  background-image: url("bathukamma.jpg");
 }
 
-.FoT{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    align-content: space-evenly;
-}
-.T-flavours{
-    display: flex;
-    padding: 10px;
-    justify-content:space-between;
+#bonalu-img {
+  background-image: url("bonalu.jpg");
 }
 
-.F-box{
-    height: 150px;
-    width: 400px;
-    border: 1px solid rgb(255, 213, 235);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 10px;
-    overflow: hidden;
-    font-weight: bold;
-    background-color: rgb(253, 233, 237);
-}
-.F-box p{
-    font-size: 14px;
+#jatara-img {
+  background-image: url("jatara.jpg");
 }
 
-.F-img{
-    height: 130px;
-    width: 150px;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: center;
+.FoT {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-content: space-evenly;
+}
+.T-flavours {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
 }
 
-#biryani-img{
-    background-image: url("biryani.jpg");
+.F-box {
+  height: 150px;
+  width: 400px;
+  border: 1px solid rgb(255, 213, 235);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  font-weight: bold;
+  background-color: rgb(253, 233, 237);
+}
+.F-box p {
+  font-size: 14px;
 }
 
-#Haleem-img{
-    background-image: url("haleem.jpg");
+.F-img {
+  height: 130px;
+  width: 150px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
 }
 
-#DKM-img{
-    background-image: url("DKM.webp");
+#biryani-img {
+  background-image: url("biryani.jpg");
 }
 
-#SP-img{
-    background-image: url("sarva.png");
+#Haleem-img {
+  background-image: url("haleem.jpg");
 }
 
-.Two-cards{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin: 20px 0px 20px 0px;
+#DKM-img {
+  background-image: url("DKM.webp");
 }
 
-.T-cards{
-    height: 280px;
-    width: 600px;
-    background-color: rgb(231, 246, 255);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+#SP-img {
+  background-image: url("sarva.png");
 }
 
-.TC-img{
-    height: 230px;
-    width: 230px;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: center;
+.Two-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0px 20px 0px;
 }
 
-#GnP-img{
-    background-image: url("GnP.jpg");
+.T-cards {
+  height: 280px;
+  width: 600px;
+  background-color: rgb(231, 246, 255);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.TC-txt{
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.TC-img {
+  height: 230px;
+  width: 230px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
 }
 
-.GP-H{
-    text-align: start;
-    color: rgb(8, 108, 170);
+#GnP-img {
+  background-image: url("GnP.jpg");
 }
 
-.txt-color{
-    color: rgb(105, 105, 105);
+.TC-txt {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-#CoL-img{
-    background-image: url("CoL.jpeg");
+.GP-H {
+  text-align: start;
+  color: rgb(8, 108, 170);
 }
 
-.CoL{
-    background-color: rgb(251, 250, 224);
-    border-radius: 10px;
-}
-.CoL-H{
-    color: rgb(9, 9, 123);
-}
-.Visual{
-    height: 450px;
-    width: 90%;
-    margin: 20px 0px 20px 0px;
-}
-.VJ-imgs{
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    padding-top: 30px;
-}
-.five{
-    display: flex;
-    height: 190px;
-    gap: 10px;    
-    align-items:self-start;
-}
-.img{
-    height: 180px;
-    width: 260px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    border: 1px solid rgb(221, 219, 219);
-    box-shadow: rgba(0, 0, 0, 0.703) 2px 2px 2px 2px;
-}
-.img:hover{
-    transform: translate(0px,-10px);
-    height: 200px;
-}
-.img h3{
-    height: 120px;
-    width: 260px;
-    color: rgba(255, 255, 255, 0);
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0);
-    padding-top: 80px;
-    border-radius: 10px;
-}
-.img h3:hover{
-    background-color: rgba(0, 0, 0, 0.537);
-    color: white;
-    transition: 0.25s;
-}
-#img1{
-    background-image: url("warangal-fort.jpeg");
-}
-#img2{
-    background-image: url("laknavaram.webp");
-}
-#img3{
-    background-image: url("kawal.jpg");
-}
-#img4{
-    background-image: url("badrachalam.jpg");
-}
-#img5{
-    background-image: url("bogatha.webp");
-}
-#img6{
-    background-image: url("thousand.jpg");
-}
-#img7{
-    background-image: url("shahi-tombs.webp");
-}
-#img8{
-    background-image: url("night.jpg");
-}
-#img9{
-    background-image: url("ananthagiri.jpg");
-}
-#img10{
-    background-image: url("medak-fort.jpg");
+.txt-color {
+  color: rgb(105, 105, 105);
 }
 
-.ET{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
+#CoL-img {
+  background-image: url("CoL.jpeg");
 }
 
-.ET-boxes{
-    display: flex;
-    margin-top: 15px;
-    justify-content: space-between;
+.CoL {
+  background-color: rgb(251, 250, 224);
+  border-radius: 10px;
+}
+.CoL-H {
+  color: rgb(9, 9, 123);
+}
+.Visual {
+  height: 450px;
+  width: 90%;
+  margin: 20px 0px 20px 0px;
+}
+.VJ-imgs {
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding-top: 30px;
+}
+.five {
+  display: flex;
+  height: 190px;
+  gap: 10px;
+  align-items: self-start;
+}
+.img {
+  height: 180px;
+  width: 260px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  border: 1px solid rgb(221, 219, 219);
+  box-shadow: rgba(0, 0, 0, 0.703) 2px 2px 2px 2px;
+}
+.img:hover {
+  transform: translate(0px, -10px);
+  height: 200px;
+}
+.img h3 {
+  height: 120px;
+  width: 260px;
+  color: rgba(255, 255, 255, 0);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 80px;
+  border-radius: 10px;
+}
+.img h3:hover {
+  background-color: rgba(0, 0, 0, 0.537);
+  color: white;
+  transition: 0.25s;
+}
+#img1 {
+  background-image: url("warangal-fort.jpeg");
+}
+#img2 {
+  background-image: url("laknavaram.webp");
+}
+#img3 {
+  background-image: url("kawal.jpg");
+}
+#img4 {
+  background-image: url("badrachalam.jpg");
+}
+#img5 {
+  background-image: url("bogatha.webp");
+}
+#img6 {
+  background-image: url("thousand.jpg");
+}
+#img7 {
+  background-image: url("shahi-tombs.webp");
+}
+#img8 {
+  background-image: url("night.jpg");
+}
+#img9 {
+  background-image: url("ananthagiri.jpg");
+}
+#img10 {
+  background-image: url("medak-fort.jpg");
 }
 
-.ET-box{
-    height: 150px;
-    width: 250px;
-    border: 1px solid rgb(231, 231, 231);
-    border-radius: 10px;
-    background-color: rgb(255, 253, 248);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
+.ET {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-bottom: 30px;
 }
 
-.ET-icon{
-    height: 50px;
-    width: 50px;
-    align-content: center;
-    font-size: 30px;
-    color: brown;
-    background-color:rgb(245, 210, 164);
-    border-radius: 50%;
+.ET-boxes {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.ET-box {
+  height: 180px;
+  width: 280px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 10px;
+  background-color: rgb(255, 253, 248);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.ET-boxes :hover {
+  background-color: rgb(236, 188, 98);
+  border-radius: 10px;
+}
+.ET-icon {
+  height: 50px;
+  width: 50px;
+  align-content: center;
+  font-size: 30px;
+  color: brown;
+  background-color: rgb(245, 210, 164);
+  border-radius: 50%;
 }
